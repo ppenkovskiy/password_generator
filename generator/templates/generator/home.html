@@ -1,6 +1,7 @@
 <h1>Password Generator</h1>
 
 <form action="password">
+
   <select name="length">
     <option value='6'>6</option>
     <option value='7'>7</option>
@@ -14,7 +15,7 @@
   </select>
 
   <br>
-  <input type="checkbox" name="uppercase"> Uppercased
+  <input type="checkbox" name="uppercase"> Uppercase
   <br>
   <input type="checkbox" name="numbers"> Numbers
   <br>
@@ -22,4 +23,8 @@
   <br>
 
   <input type='submit' value="Generate Password">
+
 </form>
+
+<br>
+<a href="{% url 'about' %}">About page</a>
