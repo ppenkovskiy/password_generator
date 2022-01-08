@@ -1,1 +1,1 @@
-To see this project in web use url - http://penkovskiy.pythonanywhere.com/
+To see this project in web use url - https://penkovskiy.pythonanywhere.com/
